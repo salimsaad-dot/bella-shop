@@ -171,7 +171,8 @@ body {
     padding: 20px;
     text-align: center;
     font-size: 14px;
-    color: #aaa;
+    color: #fff;
+    background-color: black;
   }
   
   .floating-whatsapp {
