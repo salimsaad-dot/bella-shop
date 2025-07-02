@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fdfdfd;
+    color: #111;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 20px 20px;
+    background: #111;
+  }
+  
+  .logo {
+    font-size: 48px;
+    color: #ffce00;
+    letter-spacing: 5px;
+  }
+  
+  .tagline {
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 8px;
+    letter-spacing: 2px;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ffce00;
+  }
+  
+  .hero {
+    position: relative;
+    background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?fit=crop&w=1400&q=80') no-repeat center center / cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+  }
+  
+  .hero button {
+    background: #ffce00;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .hero button:hover {
+    background: #e6b800;
+  }
+  
+  section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    color: #ffce00;
+    margin-top: 40px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #eee;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product-title {
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  .product-price {
+    color: #ffce00;
+    font-weight: 600;
+  }
+  
+  .product-card button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #ffce00;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background: #e6b800;
+  }
+  
+  p {
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+  }
+  
+  .contact-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  
+  .whatsapp-btn {
+    background: #ffce00;
+    color: #111;
+  }
+  
+  .insta-btn {
+    border: 1px solid #ffce00;
+    color: #ffce00;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .floating-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    z-index: 1000;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
